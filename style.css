@@ -1,0 +1,49 @@
+body {
+	background-color: cadetblue;
+}
+h1, h2 {
+	text-align: center;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: cadetblue;
+}
+.selected {
+	opacity: 1;
+}
+.container {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	padding: 20px;
+	justify-content: center;
+	background-color: yellow;
+}
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	max-width: 400px;
+	margin: 0 20px 20px 0;
+	font-family: arial;
+}
+.cardblok {
+	padding: 2px 16px;
+	background-color: Cyan;
+}
+.card button {
+	border: none;
+	outline: 0;
+	padding: 2px;
+	color: white;
+	background-color: Cyan;
+	text-align: center;
+	cursor: pointer;
+	width: 100%;
+	font-size: 18px;
+	cursor: pointer;
+}
+.card button:hover {
+	opacity: 0.7;
+}
